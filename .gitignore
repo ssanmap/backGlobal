@@ -1,0 +1,25 @@
+# Dependencias
+node_modules/
+.pnpm-store/
+.bun/
+.cache/
+
+# Build outputs
+dist/
+.nuxt/
+.output/
+coverage/
+*.log
+
+# Entornos
+.env
+.env.*
+!.env.example
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
